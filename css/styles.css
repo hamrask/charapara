@@ -149,19 +149,20 @@ select{
 	width: 150px;
 }
 #settings-refresh-btn{
-	border-left: 1px solid #ddd;
+	border-left: 1px solid #fff;
 }
 .social-links a {
     font-size: 20px;
-    color: #bbb;
+    color: #fff;
     padding: 3px;
-    margin: 0 5px;
+	margin: 0 5px;
 }
 .social-links [class*='kdcoicon']:before {
 	color: #bbb;
 }
 .social-links{
-	margin: 20px 0px 0px 0px; 
+	margin: 20px 0px 0px 0px;
+	display: inline-flex;
 }
 .footer .social-links{
 	margin: 20px 0px 40px 0px; 
